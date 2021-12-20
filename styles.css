@@ -1,86 +1,62 @@
-/* {
-  margin: 0;
-  padding: 0;
-}
-
-
- body {
-     background-image: url(https://w0.peakpx.com/wallpaper/988/380/HD-wallpaper-pokemon-gb-nintendo-poke-pokeball.jpg);
-     background-size: cover;
-     background-repeat: no-repeat; 
-
-
- }
-
- h1 {
-    text-align: center;
-    padding: 20px;
-    color: whitesmoke;
-    
-}
-
-.fotocarta {
-    max-width: 180px;
-    max-height: 180px;
-} */
-
-
 body {
-    background-color: orangered;
-    margin: 0;
-    font-family: rubik;
-    color: white;
-  }
-  .container {
-    padding: 40px;
-    margin: 0 auto;
-  }
-  h1 {
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 54px;
-  }
-  .card {
-    list-style: none;
-    padding: 40px;
-    background-color: #f4f4f4;
-    color: #222;
-    text-align: center;
-  }
-  .card-title {
-    text-transform: uppercase;
-    font-size: 32px;
-    font-weight: normal;
-    margin-bottom: 0;
-  }
-  .card-subtitle {
-    font-weight: lighter;
-    color: #666;
-    margin-top: 5px;
-  }
-  .card-image {
+  background-image: url("./imagen/pokemon-go-1-viaje-151-suenos-papel-pintado-2560x1080_14.jpg");
+  margin: 0;
+  font-family: rubik;
+  color: white;
+}
+.container {
+  padding: 40px;
+  margin: 0 auto;
+}
+
+h1 {
+  background-image: url("./imagen/Logo_de_Pokémon.png");
+  background-position: center;
+  margin-top: 100px;
+  margin-left: 0px;
+  margin-bottom: 100px;
+  margin-right: 0px;
+  width: 1492px;
+  height: 600px;
+  border: 10px;
+  background-repeat: no-repeat;
+}
+.fotocarta{
     height: 180px;
+    width: 180px;
+}
+
+#pokedex div {
+    background-color: rgba(255, 255, 255, 0.089);
+  color: whitesmoke;
+  border-radius: 20px;
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+
+}
+
+#pokedex {
+  padding-inline-start: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 20px;
+}
+.card:hover {
+  animation: bounce 0.5s linear;
+}
+@keyframes bounce {
+  20% {
+    transform: translateY(-6px);
   }
-  #pokedex {
-    padding-inline-start: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 20px;
+  40% {
+    transform: translateY(0px);
   }
-  .card:hover {
-    animation: bounce 0.5s linear;
+  60% {
+    transform: translateY(-2px);
   }
-  @keyframes bounce {
-    20% {
-      transform: translateY(-6px);
-    }
-    40% {
-      transform: translateY(0px);
-    }
-    60% {
-      transform: translateY(-2px);
-    }
-    80% {
-      transform: translateY(-0px);
-    }
+  80% {
+    transform: translateY(-0px);
   }
+}
