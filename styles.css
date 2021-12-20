@@ -27,10 +27,10 @@ h1 {
 }
 
 #pokedex div {
-    background-color: rgba(255, 255, 255, 0.089);
+    background-color: rgba(0, 0, 0, 0.472);
   color: whitesmoke;
   border-radius: 20px;
-  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+  box-shadow: 0 3px 15px #2A4396;
   margin: 10px;
   padding: 20px;
   text-align: center;
