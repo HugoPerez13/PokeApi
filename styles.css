@@ -3,24 +3,33 @@ body {
   margin: 0;
   font-family: rubik;
   color: white;
+  background-repeat: no-repeat;
+  background-color: #010206;
+  
 }
+
+
 .container {
-  padding: 40px;
+  padding: 0px;
   margin: 0 auto;
 }
 
-h1 {
-  background-image: url("./imagen/Logo_de_Pokémon.png");
-  background-position: center;
-  margin-top: 100px;
-  margin-left: 450px;
-  margin-bottom: 100px;
-  margin-right: 0px;
-  width: 1492px;
-  height: 600px;
-  border: 10px;
-  background-repeat: no-repeat;
+.headImagenContainer {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  
+
 }
+ 
+.headImagenContainer img {
+  max-width: 90%;
+  display:block;
+  margin: 0 auto;
+  margin-bottom: 350px;
+}
+
+
+
 .fotocarta{
     height: 180px;
     width: 180px;
@@ -38,7 +47,8 @@ h1 {
 }
 
 #pokedex {
-  padding-inline-start: 0;
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 20px;

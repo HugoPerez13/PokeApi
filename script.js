@@ -17,7 +17,8 @@ const arrayPokemon = () => {
 const print = (Pokemon) => {
     for (const poke of Pokemon) {
         const div2$$ =document.createElement("div");
-        div2$$.innerHTML = `<h2> ${poke.name}</h2>
+        div2$$.innerHTML = 
+        `<h2> ${poke.name}</h2>
         <img  class="fotocarta" src="${poke.sprites.other.dream_world.front_default}"/>
         <p>nº ${poke.id}</p> 
         <p>experiencia: ${poke.base_experience}</p>
