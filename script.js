@@ -1,21 +1,21 @@
 const ol$$ = document.querySelector("#pokedex");
 
 
-const arrayPokemon = () => {
+function arrayPokemon() {
     const todosPokemon = [];
 
     for (let i = 1; i <= 151; i++) {
         const pokeApi = "https://pokeapi.co/api/v2/pokemon/" + i;
-        todosPokemon.push(fetch(pokeApi).then ((res) => res.json()));
+        todosPokemon.push(fetch(pokeApi).then((res) => res.json()));
     }
-        
+
     Promise.all(todosPokemon).then((results) => {
         print(results);
     });
-};
+}
 
-const print = (Pokemon) => {
-    for (const poke of Pokemon) {
+const print = (results) => {
+    for (const poke of results) {
         const div2$$ =document.createElement("div");
         div2$$.innerHTML = 
         `<h2> ${poke.name}</h2>
