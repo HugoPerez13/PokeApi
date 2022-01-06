@@ -6,6 +6,31 @@ body {
   background-repeat: no-repeat;
   background-color: #010206;
   
+  
+}
+
+.fotoencontrada{
+  background-color: rgba(0, 0, 0, 0.198);
+  color: whitesmoke;
+  border-radius: 20px;
+  box-shadow: 0 3px 15px #c50f0f9b;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 310px;
+  
+}
+
+.cartuca{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.buscador{
+  margin-left: 30px;
 }
 
 
