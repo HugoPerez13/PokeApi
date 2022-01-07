@@ -35,10 +35,11 @@ arrayPokemon();
 //531968465496
 
 const buscar = (results) => {
-    const cartuca =document.querySelector(".cartuca");
+  const cartuca =document.querySelector(".cartuca");
     cartuca.innerHTML="";
+    console.log(imput.value.toLowerCase());
   for (const result of results) {
-    if (result.name === imput.value) {
+    if (result.name === imput.value.toLowerCase()) {
         const div$$ = document.createElement("div");
         div$$.classList.add("fotoencontrada")
         div$$.innerHTML = `<h2> ${result.name}</h2>
