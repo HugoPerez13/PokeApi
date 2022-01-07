@@ -9,11 +9,58 @@ body {
   
 }
 
+.buscador{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.botonBuscar {
+  margin: 50px;
+  padding: 15px 30px;
+  border: 5px solid #ff0066;
+  border-radius: 50px;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: black;
+  color: #ff0066;
+  box-shadow: 0px 0px 40px 2px #ff0066;
+  text-transform: uppercase;
+  display: wrap;
+  justify-content: center;
+  
+  
+  
+  
+    
+
+
+
+}
+
+.textoBuscar{
+  margin: 50px;
+  padding: 15px 30px;
+  border: 5px solid #ff0066;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: black;
+  color: #ff0066;
+  box-shadow: 0px 0px 40px 2px #ff0066;
+  
+
+
+}
+
 .fotoencontrada{
   background-color: rgba(0, 0, 0, 0.198);
   color: whitesmoke;
   border-radius: 20px;
-  box-shadow: 0 3px 15px #c50f0f9b;
+  box-shadow: 0 3px 15px #ff0066;
   margin: 10px;
   padding: 20px;
   text-align: center;
@@ -63,8 +110,9 @@ body {
 #pokedex div {
     background-color: rgba(0, 0, 0, 0.472);
   color: whitesmoke;
-  border-radius: 20px;
-  box-shadow: 0 3px 15px #2A4396;
+  border: 3px solid #2A4396;
+  border-radius: 20px ;
+  box-shadow: 5px 5px 15px #2A4396;
   margin: 10px;
   padding: 20px;
   text-align: center;
